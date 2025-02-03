@@ -1,10 +1,9 @@
 #include <stdio.h>
 
-char* welcome() {
-    return "You entered: ";
-}
-
-int main() {
-    printf("%.2f", welcome());
+int main(){
+    float v;
+    printf("");
+    scanf("%f",&v);
+    printf("You entered: %.2f",v);
     return 0;
 }
